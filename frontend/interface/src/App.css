@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(61,86,87);
+background: radial-gradient(circle, rgba(61,86,87,1) 5%, rgba(29,83,48,1) 100%);
+  
+}
+
+/* App layout */
+.App{
+  background: rgb(61,86,87);
+background: radial-gradient(circle, rgba(61,86,87,1) 5%, rgba(48,77,116,1) 100%);
+  width: 50%;
+  border: 2px solid black;
+  margin: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-size: large;
+text-align: center;
+  
+}
+#main-head{
+  color: rgb(38, 165, 123);
+ background-color: rgb(172, 206, 221);
+  text-shadow: -1px 1px 0 #000,
+      1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px -1px 0 #000;
+      display: inline;
+}
+mark {
+  background-color: springgreen;
+  color: black;
+}
+.input-content{
+width: 80%;
+height: 30px;
+font-weight: 600;
+font-size: medium;
+border: 2px solid rgb(5, 4, 4);
+}
+#btn-con{
+  margin-top: 5px;
+}
